@@ -1,5 +1,4 @@
-from turtle import pos
-from bcrypt import re
+
 from .. import models, schemas, oauth2
 from fastapi import FastAPI, Response, responses, status, HTTPException, Depends, APIRouter
 from sqlalchemy.orm import Session
